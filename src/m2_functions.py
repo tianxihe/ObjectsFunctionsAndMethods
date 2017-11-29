@@ -114,12 +114,14 @@ def  turtle5():
     to=rg.SimpleTurtle()
     ko=rg.SimpleTurtle()
 
-    to.Pen=rg.Pen('gray', 45)
+    to.pen=rg.Pen('blue',55)
     ko.pen=rg.Pen('yellow', 55)
 
+
     to.forward(230)
-    ko.left(45)
+    ko.left(245)
     ko.forward(100)
+
 
 
 
@@ -203,7 +205,7 @@ def  turtle5():
 
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The previous two TODOs IMPLEMENTED a function (TO DO 3)
 #   and TESTED that function (TO DO 4).
 #
