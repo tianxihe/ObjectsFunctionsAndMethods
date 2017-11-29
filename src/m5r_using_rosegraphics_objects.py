@@ -18,7 +18,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #        -- Where is the (0, 0) point on the screen?
 #              Left up corner
-#DONE
+#
 #        -- In what direction on the screen does the positive X-axis point?
 #              right
 #
