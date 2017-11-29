@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 ########################################################################
 #
-# TODO: 2.
+# : 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
@@ -18,7 +18,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #        -- Where is the (0, 0) point on the screen?
 #              Left up corner
-#
+#DONE
 #        -- In what direction on the screen does the positive X-axis point?
 #              right
 #
@@ -53,7 +53,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #            That will draw all the objects on the window
 
 #     g. When is a RoseWindow close_on_mouse_click method call necessary?  Why?
-#           hold the windows open after function is done. 
+#           hold the windows open after function is done.
 
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
