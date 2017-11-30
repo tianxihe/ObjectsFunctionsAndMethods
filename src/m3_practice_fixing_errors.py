@@ -6,7 +6,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   Locate the syntax (notation) errors in this file
 #   by looking for red underlines.
 #
@@ -31,7 +31,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 import rosegraphics as rg
 
-from math import cos, sin ,pi
+from math import cos, sin, pi
 
 def main():
     """ Calls the other functions in this module to demo them. """
@@ -41,10 +41,10 @@ def main():
 
 def print_math():
     """ Prints some calculated values. """
-    x =cos(pi)
+    x = cos(pi)
     print(x)
 
-    y =sin(pi)
+    y = sin(pi)
     print("The sine of PI is", y)
 
 
