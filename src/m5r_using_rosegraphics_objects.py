@@ -50,7 +50,8 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #                fill_color,center,radius
 #
 #     f. What does a RoseWindow RENDER method do?
-#            That will draw all the objects on the window
+#            That will draw all the objects that have been attach to the
+# window
 
 #     g. When is a RoseWindow close_on_mouse_click method call necessary?  Why?
 #           hold the windows open after function is done.
