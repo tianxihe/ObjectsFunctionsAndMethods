@@ -14,7 +14,7 @@ import rosegraphics as rg
 def main():
     """ Calls the other functions to demonstrate and/or test them. """
     # Test your functions by putting calls to them here:
-
+    lines()
     two_circles()
     circle_and_rectangle()
 
@@ -54,6 +54,7 @@ def two_circles():
 def circle_and_rectangle():
 
     window2 = rg.RoseWindow()
+    #circle
     center_point3 = rg.Point(130,100)
     radius3 = 45
     circle = rg.Circle(center_point3,radius3)
@@ -67,6 +68,7 @@ def circle_and_rectangle():
     print(center_point3.x)
     print(center_point3.y)
 
+    #rectangle
     point1 = rg.Point(320, 75)
     point2 = rg.Point(240, 50)
     rectangle = rg.Rectangle(point1, point2)
@@ -124,6 +126,30 @@ def circle_and_rectangle():
 
 
 def lines():
+    window3 = rg.RoseWindow()
+
+    #line1
+    point1=rg.Point(100,100)
+    point2=rg.Point(200,200)
+    to=rg.Line(point1,point2)
+    to.thickness=10
+    to.attach_to(window3)
+    #line1 data
+    print(to.get_midpoint())
+    print(to.get_midpoint().x)
+    print(to.get_midpoint().y)
+
+
+    #line2
+    point3=rg.Point(250,400)
+    point4=rg.Point(300,100)
+    ko=rg.Line(point3,point4)
+    ko.attach_to(window3)
+
+    window3.render()
+    window3.close_on_mouse_click()
+
+
     """
     -- Constructs a rg.RoseWindow.
     -- Constructs and draws on the window two rg.Lines such that:
@@ -146,7 +172,7 @@ def lines():
     -- Waits for the user to press the mouse, then closes the window.
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     # ------------------------------------------------------------------
 
 
